@@ -1,0 +1,21 @@
+This program invokes https://macaddress.io/ API for Mac Address look up & provides a company/vendor name.
+
+Requirements:
+  1.Python
+Python Package:
+ 1. requests -> pip install requests
+
+ Usage: This program required at least one Mac address as an argument. Below is the sample input command,
+
+ >Python MacAddressLookup.py 44:38:39:ff:ef:57 E8:FC:AF:B9:BE:A2
+
+ Sample output:
+
+ Input Mac address(s): 2 = ['44:38:39:ff:ef:57', 'E8:FC:AF:B9:BE:A2']
+
+### Result Start ###
+44:38:39:ff:ef:57 = Cumulus Networks, Inc
+E8:FC:AF:B9:BE:A2 = Netgear
+### Result End ###
+Total Count=2; Success Count=2; Failure Count=0
+* Completed *
